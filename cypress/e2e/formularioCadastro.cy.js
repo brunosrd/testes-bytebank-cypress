@@ -1,3 +1,4 @@
+import '..support/commands';
 describe('Formulário Cadastro', ()=>{
     beforeEach(()=>{
       cy.visit('http://localhost:3000')

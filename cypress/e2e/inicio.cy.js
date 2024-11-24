@@ -1,3 +1,4 @@
+import '..support/commands';
 describe('Página inicial', () => {
   beforeEach(()=>{
     cy.visit('http://localhost:3000/');
